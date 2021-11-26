@@ -11,3 +11,5 @@ This addon for Zen Cart 1.5.6/1.5.7 prevents the checkout in such cases
 If the weight of the goods in the cart is greater than 0, it will be checked if there is a gift certificate.
 If yes, the checkout will be prevented.
 A corresponding note appears in the shopping cart.
+
+Just make sure that all your normal physical goods have a weight greater than 0.
