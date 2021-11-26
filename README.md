@@ -5,8 +5,7 @@ If you are offering free shipping over a certain order value in your Zen Cart st
 A customer puts physical goods in his cart with an order value of 50 Euro
 You are offering free shipping over 100 Euro
 Then the customer adds a 100 gift certificate to the cart and is checking out with an order value of 150 Euro and gets free shipping.
-On his next order he is using the gift voucher balance and gets free shipping again.
-This is unwanted behavior and fraud in the end.
+This is unwanted behavior in most cases and fraud in the end.
 
 This addon for Zen Cart 1.5.6/1.5.7 prevents the checkout in such cases
 If the weight of the goods in the cart is greater than 0, it will be checked if there is a gift certificate.
