@@ -1,2 +1,0 @@
-<?php
-define('TEXT_PREVENT_GIFT_AND_PHYSICAL', 'Geschenkgutscheine sind nicht gleichzeitig mit physischen Waren bestellbar. Bitte entfernen Sie den Geschenkgutschein aus dem Warenkorb. Wenn Sie einen Geschenkgutschein bestellen möchten, dann tun Sie das bitte mit einer eigenen Bestellung.');

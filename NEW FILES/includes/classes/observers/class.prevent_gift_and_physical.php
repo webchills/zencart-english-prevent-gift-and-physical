@@ -1,10 +1,10 @@
 <?php
 /**
  * class.prevent_gift_and_physical.php
- * @copyright 2021 webchills (www.webchills.at)
- * @copyright Portions Copyright 2003-2021 Zen Cart Development Team
- * @license https://www.zen-cart-pro.at/license/3_0.txt GNU General Public License V3.0
- * @version $Id: class.prevent_gift_and_physical.php 2021-11-26 15:42:06 webchills $
+ * @copyright 2021-2024 webchills (www.webchills.at)
+ * @copyright Portions Copyright 2003-2024 Zen Cart Development Team
+ * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
+ * @version $Id: class.prevent_gift_and_physical.php 2024-03-07 14:12:06 webchills $
  */
 
 /**
@@ -32,7 +32,7 @@ class prevent_gift_and_physical extends base {
   public function update(&$class, $eventID) {
     global $messageStack;
     global $currencies;
-	global $db;
+	  global $db;
     switch ($eventID) {
       case 'NOTIFIER_CART_GET_PRODUCTS_END':
       case 'NOTIFY_HEADER_END_SHOPPING_CART': 
